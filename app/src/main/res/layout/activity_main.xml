@@ -22,7 +22,21 @@
         android:textColor="@color/colorSkin"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:background="@drawable/circle_un_pressed" />
+    <TextView
+        android:id="@+id/myview1"
+        android:translationZ="25dp"
+        android:elevation="25dp"
+        android:text="Bhupi Kumar Sahu"
+        android:textSize="23dp"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:gravity="center"
 
-    android:background="@drawable/un_pressed" />
+        android:textColor="@color/colorSkin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/rect_un_pressed" />
 
 </RelativeLayout>
